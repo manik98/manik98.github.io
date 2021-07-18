@@ -1,4 +1,4 @@
-@media (min-width:700px) and (max-width:1249px){
+@media only screen and (min-width:700px) and (max-width:1249px){
     .home{
         background-image: url('../assets/images/background.png');
         background-size: 180%;
@@ -47,5 +47,22 @@
     .footer-section{
         flex-wrap: wrap;
         margin-bottom: 20px;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu-icon{
+        margin: 10px;
+        display: block;
+    }
+    .menu-icon div{
+        background-color:#ff0044;
+        width: 30px;
+        height: 5px;
+        margin:5px 30px;
+        border-radius: 5px;
+    }
+    .menu-icon:hover{
+        cursor: pointer;
     }
 }

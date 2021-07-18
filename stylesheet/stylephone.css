@@ -1,57 +1,247 @@
-@media (max-width:699px){
+@media only screen and (max-width:699px)and (min-width: 0px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width:100%;
+    }
     .home{
-        background-image: url('../assets/images/background.png');
-        background-size: 100%;
+        background-color: #210026;
+        background-image: none;
         background-position: center;
         height: 400px;
-        display: block;
+        display: flex;
         align-items: center;
         scroll-behavior: smooth;
+        margin:0;
+        width: 100%;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        flex-direction: column;
     }
     .header{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        padding: 0;
+
+    }
+    .header .profile-info{
+        display: none;
+        
+    }
+    .navbar{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        margin-top: 5px;
+        padding: 30px;
+        float: right;
+    }
+    .menu-icon div{
+        background-color:#ff0044;
+        width: 30px;
+        height: 5px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .menu-icon:hover{
+        cursor: pointer;
     }
     .profile{
-        display: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        top:0;
+        width:100%;
+    }
+    .profile-image-phone{
+        display: block;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        top:0;
+        left:0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        position: relative;
+        border-radius: 50%;
+        box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.40);
+        border: 10px solid #fff;
+        transition: 3s;
     }
     .profile-text{
-        display: none;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        top:0;
+        left:0;
+        position: relative;
+        font-size: 24px;
+        font-weight: 600;
     }
-    .cv-buton{
-        width: 0;
+    .profile-caption{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .cv-button{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border:2px solid #210026;
+        background-color: #d90040;
+        color: #210026;
+        border-radius: 50px;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        position: relative;
+        
     }
     .about{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0;
+        padding: 0;
     }
     .my-title{
         margin-left: auto;
         margin-right: auto;
         border-radius: 0;
-
+        padding-top: 50px;
+        width: 200px;
+        height: auto;
+        background-color:white;
+        flex-direction: row;
+        color:#d90040;
+    }
+    .my-title-span1{
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .my-title-span2{
+        font-size: 35px;
+        line-height: 20px;
+        padding-left: 10px;
     }
     .myself-para{
         padding: 10px;
         font-size: 16px;
         line-height: 18px;
     }
-    .para-point{
-        flex:2;
+    .para-row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
     }
+    .para-point{
+        margin: 10px;
+        padding: 0;
+        flex: 6;
+        padding-left: 10px;
+    }
+    .point{
+        font-size: 20px;
+        line-height: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .para{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .skill{
+
+    }
+    .skill-progress{
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .progress-bar{
+        width: 300px;
+    }
+    .skill-progress label{
+        width: 300px;
+        font-size: 14px;
+    }
+    .title-row{
+        width: 300px;
+    }
+    .paper-effect{
+        height: 50px;
+    }
+    .portfolio-title{
+        font-size: 35px;
+        letter-spacing: 0.2em;
+    }
+    .gallery-row{
+        /* transform: rotateX(60deg) 
+                rotateY(0deg) 
+                rotate(-45deg) 
+                scale(1.125);
+        transform-style: preserve-3d; */
+        transform: none;
+        
+    }
+    .gallery-module{
+        /* transform: translateZ(1.5em) scale(1.05); */
+        margin:1em;
+        width: calc(80% - 2em);
+        max-width: 450px;
+        position: relative;
+        transform: none;
+    }
+    
     .contact{
         flex-direction: column;
+        margin-top: 100px;
+    }
+    .contact-me{
+        display: block;
+        width: 100%;
     }
     .contact-title{
-        font-size: 60px;
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    input, textarea{
+        font-size: 12px;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    .contact-button-div{
+        margin-left: auto;
+        margin-right: auto;
+        width:60px;
+    }
+    .contact-button{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        background-color:#210026;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        padding:5px;
+        border-radius: 5px;
     }
     .map{
         flex-wrap: wrap;
         padding-left: 0;
     }
     .map iframe{
-        width:600px;
-        height: 300px;
-        max-width: 1000px;
+        width:250px;
+        height: 250px;
+        max-width: 300px;
         flex-wrap: wrap;
     }
     .footer{
@@ -62,4 +252,5 @@
         flex-wrap: wrap;
         margin-bottom: 20px;
     }
+    
 }
