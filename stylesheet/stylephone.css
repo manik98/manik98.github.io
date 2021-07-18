@@ -1,0 +1,65 @@
+@media (max-width:699px){
+    .home{
+        background-image: url('../assets/images/background.png');
+        background-size: 100%;
+        background-position: center;
+        height: 400px;
+        display: block;
+        align-items: center;
+        scroll-behavior: smooth;
+    }
+    .header{
+    }
+    .profile{
+        display: none;
+    }
+    .profile-text{
+        display: none;
+    }
+    .cv-buton{
+        width: 0;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .my-title{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0;
+
+    }
+    .myself-para{
+        padding: 10px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .para-point{
+        flex:2;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact-title{
+        font-size: 60px;
+    }
+    .map{
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .map iframe{
+        width:600px;
+        height: 300px;
+        max-width: 1000px;
+        flex-wrap: wrap;
+    }
+    .footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer-section{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}
