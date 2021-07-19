@@ -33,8 +33,7 @@ function profileImageShow() {
       profileTextAnimationPhone();
   } 
   /* profileImage.style.border = "10px solid white"; */
-  var text1 = document.getElementById('text1');
-  text1.style.width = "400px";
+
 }
 function profileTextAnimation() {
   let i = 0;
