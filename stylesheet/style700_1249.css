@@ -1,7 +1,7 @@
 @media only screen and (min-width:700px) and (max-width:1249px){
     .home{
         background-image: url('../assets/images/background.png');
-        background-size: 180%;
+        background-size: 150%;
         background-position: center;
         height: auto;
         display: block;
@@ -23,6 +23,47 @@
         float: right;
 
     }
+    .myself-para{
+        padding: 10px;
+        font-size: 14px;
+        line-height: 14px;
+        width: calc(50%-30px);
+
+    }
+    .para-row{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .para-point{
+        margin: 30px;
+        padding: 0;
+        padding-left: 40px;
+        width:calc(30%-24px);
+        flex: 4;
+        display: block;
+    }
+    .point{
+        font-size: 100px;
+        line-height: 80px;
+    }
+    .para{
+        font-size: 18px;
+        line-height: 22px;
+        
+    }
+    .cv-button{
+        margin: 20px;
+        padding: 20px;
+        border:2px solid #210026;
+        background-color: none;
+        color: #210026;
+        border-radius: 50px;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        width: 150px;
+        text-align: center;
+    }
     .profile-info-phone{
         display: block;
         position: absolute;
@@ -39,12 +80,22 @@
         margin-left: auto;
         margin-right: auto;
         border-radius: 0;
-
+        
     }
-    .myself-para{
-        padding: 10px;
-        font-size: 16px;
-        line-height: 18px;
+    .about-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        height: 200px;
+        line-height: 200px;
+    }
+    .my-title-span1{
+        line-height: 200px;
+    }
+    .my-title-span2{
+        line-height: 200px;
+        margin: 10px;
     }
     .contact{
         flex-direction: column;
@@ -86,5 +137,16 @@
     }
     .menu-icon:hover{
         cursor: pointer;
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1249px) {
+    .para-point{
+        margin: 30px 80px;
+        padding: 0;
+        padding-left: 40px;
+        width:calc(30%-24px);
+        flex: 4;
+        display: block;
     }
 }

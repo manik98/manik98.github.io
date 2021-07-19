@@ -22,6 +22,7 @@ function profileImageShow() {
     profileTextAnimation();
   } else if (screen900.matches) {
     profileImage.className = "profile-image-900";
+    profileText.className = "profile-text-900";
     profileTextAnimation();
   }else if (screen700.matches) {
     profileImage.className = "profile-image-700";

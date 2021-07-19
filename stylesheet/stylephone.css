@@ -165,6 +165,14 @@
         flex-direction: row;
         color:#d90040;
     }
+    .about-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        height: 30px;
+        line-height: 30px;
+    }
     .my-title-span1{
         font-size: 25px;
         line-height: 20px;

@@ -11,7 +11,7 @@ html{
 }
 .home{
     background-image: url('../assets/images/background.png');
-    background-size: 100%;
+    background-size: 130%;
     background-position: center;
     height: auto;
     display: block;
@@ -101,10 +101,10 @@ nav{
 .profile-image-1600{
     position: absolute;
     top:20%;
-    left: 33%;
+    left: 28%;
     color: #fff;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border:none;
     box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.40);
@@ -115,10 +115,10 @@ nav{
 .profile-image-1400{
     position: absolute;
     top:22%;
-    left: 33%;
+    left: 28%;
     color: #fff;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border:none;
     box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.40);
@@ -128,11 +128,11 @@ nav{
 }
 .profile-image-900{
     position: absolute;
-    top:24%;
-    left: 20%;
+    top:30%;
+    left: 26%;
     color: #fff;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     border:none;
     box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.40);
@@ -143,7 +143,7 @@ nav{
 .profile-image-700{
     position: absolute;
     top:32%;
-    left: 20%;
+    left: 25%;
     color: #fff;
     width: 150px;
     height: 150px;
@@ -157,7 +157,7 @@ nav{
 .profile-image{
     position: absolute;
     top:20%;
-    left: 33%;
+    left: 31%;
     color: #fff;
     width: 0px;
     height: 0px;
@@ -174,6 +174,15 @@ nav{
     top:25%;
     left: 48%;
     font-size: 34px;
+    
+}
+.profile-text-900{
+    float: left;
+    width: 300px;
+    position: absolute;
+    top:32%;
+    left: 47%;
+    font-size: 20px;
     
 }
 .profile-text-700{
@@ -250,6 +259,12 @@ nav{
     justify-content: center;
     margin: 2%;
 }
+.about-title{
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    margin-top: 150px
+}
 .my-title-span1{
     font-size: 70px;
     line-height: 70px;
@@ -281,6 +296,7 @@ nav{
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
+    width: calc(90%-500px);
 }
 .para-row{
     display: flex;
@@ -289,7 +305,7 @@ nav{
 }
 .para-point{
     margin-top: 10px;
-    display: block;
+    display: flex;
     flex-direction: column;
     border-left: 2px solid #d90040 ;
     padding-left: 20px;
@@ -599,4 +615,25 @@ button:hover{
         width: 400px;
         height: 400px;
     }
+    .about{
+        display: flex;
+        flex-direction: row;
+    }
+    .my-title{
+        width: 400px !important;
+        height: 400px !important;
+        flex: 4;
+        display: flex;
+        line-height:400px ;
+    }
+    .myself-para{
+
+    }
+    .about-title{
+        width: 400px;
+        height: 400px;
+        line-height: 400px;
+        margin-top: 100px
+    }
+
 }
