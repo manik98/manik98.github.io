@@ -142,11 +142,11 @@ nav{
 }
 .profile-image-700{
     position: absolute;
-    top:32%;
+    top:30%;
     left: 25%;
     color: #fff;
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border:none;
     box-shadow: 1px 3px 10px 0px rgba(0,0,0,0.40);
@@ -189,10 +189,13 @@ nav{
     float: left;
     width: 300px;
     position: absolute;
-    top:35%;
+    top:32%;
     left: 47%;
     font-size: 20px;
     
+}
+.profile-info-700{
+    display: none;
 }
 .profile-caption{
     font-weight: 900;
@@ -304,12 +307,13 @@ nav{
     padding: 20px;
 }
 .para-point{
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     border-left: 2px solid #d90040 ;
     padding-left: 20px;
-    width: calc(33% - 24px);
+    width: calc(30% - 24px);
 }
 .point{
     display: block;
@@ -351,7 +355,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
 }
-.skill-title{
+/* .skill-title{
     background-repeat: repeat;
     font-size: 35px;
     padding: 15px;
@@ -359,6 +363,16 @@ nav{
     display: flex;
     transition: 0.5s;
     cursor: default;
+} */
+.skill-title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 50px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    padding-left: 0.25em;
+
 }
 /* .skill-title:hover{
     width: 60px;
@@ -540,7 +554,7 @@ textarea:focus{
 .contact-button-div{
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 150px;
 }
 .contact-button{
     margin-left: auto;
@@ -562,33 +576,53 @@ button:hover{
     display: flex;
     flex-direction: row;
     text-align: left;
-    margin-bottom: 10px;
+    margin-left: 20px ;
   
 }
-.contact-info span{
+.contact-info img{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.footer-section span{
     font-size: 16px;
-    line-height:16px;
+    line-height:30px;
     color: #ffffff;
-    padding-left: 10px;
-    margin: 8px;
+    padding-left: 5px;
 }
 .footer{
     background-color: #19191d;
     margin:0;
     padding: 50px ;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 .footer-section{
     margin: 0;
     color: #ffffff;
-    margin: 0px 50px;
-    border-left:  2px solid #ffffff;
+    margin-bottom: 10px;
     padding-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 .footer nav{
     color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.footer nav:hover{
+    color: #d90040;
+}
+.social-links{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.designer-name{
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
 }
 @media (min-width:1250px) and (max-width:1450px){
     .profile-text{
@@ -628,9 +662,7 @@ button:hover{
         display: flex;
         line-height:400px ;
     }
-    .myself-para{
-
-    }
+    
     .about-title{
         width: 400px;
         height: 400px;

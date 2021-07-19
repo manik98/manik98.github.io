@@ -52,7 +52,7 @@
         background-color: #d90040;
         width: 100%;
         z-index: 999;
-        height: 500px;
+        height: 700px;
         position: absolute;
         top: 0;
         float: right;
@@ -303,13 +303,37 @@
     }
     .footer{
         flex-direction: column;
-        flex-wrap: wrap;
+        font-size: 14px;
+        padding: 10px;
     }
     .footer-section{
         flex-wrap: wrap;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
-    
+    .contact-info{
+        display: flex;
+    }
+    .contact-info img{
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+    }
+    .contact-info span{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .designer-name{
+        font-size: 18px;
+    }
+    .social-links{
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+    }
+    .up-arrow{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media only screen and (max-width:320px) {
