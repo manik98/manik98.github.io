@@ -576,8 +576,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     text-align: left;
-    margin-left: 20px ;
-  
+    
 }
 .contact-info img{
     width: 30px;
@@ -586,7 +585,7 @@ button:hover{
 }
 .footer-section span{
     font-size: 16px;
-    line-height:30px;
+    line-height:20px;
     color: #ffffff;
     padding-left: 5px;
 }
@@ -601,8 +600,6 @@ button:hover{
 .footer-section{
     margin: 0;
     color: #ffffff;
-    margin-bottom: 10px;
-    padding-left: 30px;
     display: flex;
     justify-content: center;
 }
@@ -616,8 +613,8 @@ button:hover{
     color: #d90040;
 }
 .social-links{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-right: 15px;
 }
 .designer-name{

@@ -45,18 +45,35 @@
         z-index: 1;
         left: 0;
         display: block;
+        width: 100%;
     }
     .navbar-phone{
         display: none;
-        height: 0;
         background-color: #d90040;
         width: 100%;
         z-index: 999;
-        height: 700px;
+        height: 600px;
         position: absolute;
         top: 0;
         float: right;
         transition: 3s;
+    }
+    .navbar-phone-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navbar-image{
+        width: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-image img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 5px solid #ffffff;
     }
     .navbar-phone nav{
         color: #ffffff;
@@ -65,6 +82,16 @@
         border-bottom:1px solid white ;
         padding: 20px;
         border-radius: 0;
+    }
+    .navbar-social-link{
+        display: flex;
+        font-display: row;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        background-color: #d90040;
+        width: 195px;
+        margin-top: 20px;
     }
     .menu-icon{
         display: block;
@@ -304,7 +331,7 @@
     .footer{
         flex-direction: column;
         font-size: 14px;
-        padding: 10px;
+        padding: 20px;
     }
     .footer-section{
         flex-wrap: wrap;
@@ -312,27 +339,32 @@
     }
     .contact-info{
         display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .contact-info img{
-        width: 15px;
-        height: 15px;
-        line-height: 15px;
-    }
-    .contact-info span{
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .designer-name{
-        font-size: 18px;
-    }
-    .social-links{
-        width: 18px;
-        height: 18px;
-        margin-right: 5px;
-    }
-    .up-arrow{
         width: 20px;
         height: 20px;
+        line-height: 20px;
+    }
+    .contact-info span{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .designer-name{
+        font-size: 26px;
+    }
+    .social-links{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+    }
+    .up-arrow{
+        width: 50px;
+        height: 50px;
     }
 }
 
