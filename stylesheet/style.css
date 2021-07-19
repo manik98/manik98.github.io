@@ -227,7 +227,6 @@ nav{
     display: flex;
     flex-direction: row;
     scroll-behavior: smooth;
-    padding: 20px;
     /* transform: rotate(-5deg); */
 }
 .my-title{
@@ -285,7 +284,7 @@ nav{
     padding: 20px;
 }
 .para-point{
-    margin: 10px 40px;
+    margin-top: 10px;
     display: block;
     flex-direction: column;
     border-left: 2px solid #d90040 ;
