@@ -134,8 +134,8 @@
     }
     .myself-para{
         padding: 10px;
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 14px;
+        line-height: 14px;
         width: 100%;
 
     }
@@ -145,11 +145,11 @@
         padding: 0;
     }
     .para-point{
-        margin: 10px;
+        margin: 15px;
         padding: 0;
         flex: 6;
         padding-left: 10px;
-        width: calc(50% - 24px);
+        width:calc(50%-24px);
     }
     .point{
         font-size: 20px;
@@ -271,4 +271,8 @@
     .title-row{
         width: 250px;
     }
+}
+
+@media only screen and (min-width:390px) and (max-width:320px) {
+    
 }
