@@ -30,7 +30,7 @@
     }
     .navbar-phone{
         display: none;
-        height: 700px;
+        height: 600px;
         background-color: #d90040;
         width: 100%;
         z-index: 999;

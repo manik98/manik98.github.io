@@ -576,18 +576,20 @@ button:hover{
     display: flex;
     flex-direction: row;
     text-align: left;
+    margin: 10px;
     
 }
 .contact-info img{
     width: 30px;
     height: 30px;
     line-height: 30px;
+    padding-left: 10px;
 }
-.footer-section span{
+.contact-info span{
     font-size: 16px;
-    line-height:20px;
+    line-height:30px;
     color: #ffffff;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .footer{
     background-color: #19191d;
