@@ -11,6 +11,7 @@ function profileImageShow() {
   } */
   var screen1600 = window.matchMedia("(min-width: 1451px)");
   var screen1400 = window.matchMedia("(min-width: 1250px)");
+  var screen900 = window.matchMedia("(min-width: 900px)");
   var screen700 = window.matchMedia("(min-width: 700px)");
   var phone = window.matchMedia("(max-width: 699px)");
   if (screen1600.matches) {
@@ -19,7 +20,10 @@ function profileImageShow() {
   } else if (screen1400.matches) {
     profileImage.className = "profile-image-1400";
     profileTextAnimation();
-  } else if (screen700.matches) {
+  } else if (screen900.matches) {
+    profileImage.className = "profile-image-900";
+    profileTextAnimation();
+  }else if (screen700.matches) {
     profileImage.className = "profile-image-700";
     profileText.className = "profile-text-700";
     profileTextAnimation();

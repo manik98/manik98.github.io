@@ -98,6 +98,9 @@
         top:0;
         width:100%;
     }
+    .profile-info-phone{
+        display: block;
+    }
     .profile-image-phone{
         display: block;
         justify-content: center;
@@ -279,7 +282,7 @@
     .map iframe{
         width:clac(100%-5px);
         height: 250px;
-        max-width: 300px;
+        max-width: 700px;
         flex-wrap: wrap;
     }
     .footer{

@@ -8,6 +8,28 @@
         align-items: center;
         scroll-behavior: smooth;
     }
+    .header{
+        display: none;
+    }
+    .header-phone{
+        z-index: 1;
+        left: 0;
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        margin-top: 5px;
+        padding: 20px;
+        float: right;
+
+    }
+    .profile-info-phone{
+        display: block;
+        position: absolute;
+        top: 0;
+        padding-top: 5px;
+        margin: 20px;
+    }
     .about{
         display: flex;
         flex-direction: column;
