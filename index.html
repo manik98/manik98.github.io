@@ -21,11 +21,28 @@
         <link rel="stylesheet" type="text/css" href="stylesheet/stylephone.css">
     </head>
 
-    <body onload="profileImageShow()">
+    <body onload="profileImageShow()" onscroll="showHeader();">
 
         <div class="container">
+            <!-- <div class="header-phone">
+                <div class="menu-icon" onclick="openNavModal();">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div> -->
             
             <div class="home " id="home">
+                <div style="width: 100%;">
+                    <div  class="header-phone" id="header-phone">
+                        <div class="menu-icon" onclick="openNavModal();">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    
+                </div>
                 <div class="header">
                     <div class="profile-info">
                         <div class="profile-logo">M</div>
@@ -48,15 +65,33 @@
                             <nav>Contact</nav>
                         </a>
                     </div>
-                    <div class="menu-icon">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-
                 </div>
                 
                 <div class="profile">
+                    <div class="navbar-phone" id="navbar-phone">
+                        <div class="menu-icon-close" onclick="closeNavModal();">
+                            x
+                        </div>
+                        <a href="#home">
+                            <nav>Home</nav>
+                        </a>
+                        <a href="#about">
+                            <nav>About</nav>
+                        </a>
+                        <a href="#skill">
+                            <nav>Skills</nav>
+                        </a>
+                        <a href="#portfolio">
+                            <nav>Portfolio</nav>
+                        </a>
+                        <a href="#contact">
+                            <nav>Contact</nav>
+                        </a>
+                    </div>
+                    <div class="profile-info-phone">
+                        <div class="profile-logo">M</div>
+                        <div class="profile-logo-text">Manik <span> Chakraborty</span></div>
+                    </div>
                     <img src="assets/images/manik1.jpg" class=" profile-image" id="profile-image">
                     <div class="profile-text" id="profile-text">
                         

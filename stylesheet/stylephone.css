@@ -19,29 +19,62 @@
         background-size: 150%;
         background-repeat: no-repeat;
         flex-direction: column;
+       
     }
+   
     .header{
-        width: 100%;
-        margin: 0;
-        display: flex;
-        padding: 0;
-
-    }
-    .header .profile-info{
+        display: none;
+    } 
+    .profile-info{
         display: none;
         
     }
     .navbar{
         display: none;
     }
+    /* .header-phone{
+        position: sticky;
+        top:0;
+        z-index: 1;
+        background-color: #d90040;
+        width: 100%;
+        height: 0;
+        display: none;
+    } */
+    .header-phone{
+        z-index: 1;
+        left: 0;
+        display: block;
+    }
+    .navbar-phone{
+        display: none;
+        height: 0;
+        background-color: #d90040;
+        width: 100%;
+        z-index: 999;
+        height: 500px;
+        position: absolute;
+        top: 0;
+        float: right;
+        transition: 3s;
+    }
+    .navbar-phone nav{
+        color: #ffffff;
+        text-align: center;
+        font-size: 26px;
+        border-bottom:1px solid white ;
+        padding: 20px;
+        border-radius: 0;
+    }
     .menu-icon{
         display: block;
         margin-top: 5px;
-        padding: 30px;
+        padding: 20px;
         float: right;
+
     }
     .menu-icon div{
-        background-color:#ff0044;
+        background-color: #d90040;
         width: 30px;
         height: 5px;
         border-radius: 5px;
@@ -49,6 +82,12 @@
     }
     .menu-icon:hover{
         cursor: pointer;
+    }
+    .menu-icon-close{
+        font-size: 40px;
+        font-weight:400;
+        color: #ffffff;
+        padding: 20px;
     }
     .profile{
         display: flex;
@@ -188,13 +227,7 @@
         letter-spacing: 0.2em;
     }
     .gallery-row{
-        /* transform: rotateX(60deg) 
-                rotateY(0deg) 
-                rotate(-45deg) 
-                scale(1.125);
-        transform-style: preserve-3d; */
         transform: none;
-        
     }
     .gallery-module{
         /* transform: translateZ(1.5em) scale(1.05); */

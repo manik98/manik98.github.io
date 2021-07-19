@@ -88,6 +88,15 @@ function profileTextAnimationPhone() {
   };
 })();
 
-function progress(a, b) {
-  alert(a, b);
+function openNavModal() {
+  var navbar = document.getElementById('navbar-phone');
+  var header = document.getElementById('header-phone');
+  header.style.display = "none";
+  navbar.style.display = "block";
+}
+function closeNavModal() {
+  var navbar = document.getElementById('navbar-phone');
+  var header = document.getElementById('header-phone');
+  header.style.display = "block";
+  navbar.style.display = "none";
 }
