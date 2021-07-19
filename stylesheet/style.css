@@ -263,8 +263,6 @@ nav{
     justify-content: center;
 }
 .myself-para{
-
-    flex:8;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -276,7 +274,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-
+    position: relative;
 }
 .para-row{
     display: flex;

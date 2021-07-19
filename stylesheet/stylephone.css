@@ -136,7 +136,7 @@
         padding: 10px;
         font-size: 14px;
         line-height: 14px;
-        width: 100%;
+        width: calc(100%-30px);
 
     }
     .para-row{
@@ -145,7 +145,7 @@
         padding: 0;
     }
     .para-point{
-        margin: 15px;
+        margin: 30px;
         padding: 0;
         flex: 6;
         padding-left: 10px;
