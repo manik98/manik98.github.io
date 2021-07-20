@@ -427,8 +427,8 @@ nav{
     margin: 20px;
 } */
 .skill-icon img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .skill-icons-frontend{
     transform: rotate(-30deg);
@@ -789,7 +789,7 @@ button:hover{
 .social-links{
     width: 30px;
     height: 30px;
-    margin: 8px;
+    margin: 15px;
 }
 .designer-name{
     font-family: 'Zen Loop', cursive;
