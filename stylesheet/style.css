@@ -344,6 +344,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: auto;
     
 }
 .title-row{
@@ -351,7 +352,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     height: 150px;
-    width: 700px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -389,6 +390,7 @@ nav{
     justify-content: center;
     flex:5;
     margin-left: 80px;
+    flex-wrap: wrap;
 }
 .skill-about{
     flex: 7;
@@ -413,14 +415,189 @@ nav{
     background-color: #d90040;
     border-radius: 20px;
 }
+.skill-icons{
+    flex:7;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+/* .skill-icon{
+    margin: 20px;
+} */
+.skill-icon img{
+    width: 80px;
+    height: 80px;
+}
+.skill-icons-frontend{
+    transform: rotate(-30deg);
+    display: flex;
+    left: 20;
+    z-index: 9;
+    margin-left: 50px;
+}
+.frontend{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 110;
+    left: 100;
+    line-height: 90px;
+    background-color: #d90040;
+    border-radius: 50%;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+}
 
-.skill-card{
-    flex: 3;
-    margin: 0 40px 40px;
+.skill-icon-html{ 
+    position: absolute;
+    top: 50;
+    left: 10;
+    z-index: 1;
+}
+.skill-icon-css{ 
+    position: absolute;
+    top: 0;
+    left: 90;
+    z-index: 1;
+}
+.skill-icon-react{ 
+    position: absolute;
+    top: 30;
+    left: 200;
+    z-index: 2;
+}
+.skill-icon-material-ui{ 
+    position: absolute;
+    top: 130;
+    left: 230;
+    z-index: 2;
+}
+.skill-icon-javascript{ 
+    position: absolute; 
+    top: 170;
+    left: 0;
+    z-index: 2;
+}
+.skill-icon-bootstrap{
+    position: absolute;
+    top: 110;
+    left: 100;
+}
+.skill-icons-server{
+    transform: rotate(20deg);
+    display: block;
+    top: 15%;
+    right: 10%;
+    width: 300;
+    height: 300;
+    position: absolute;
+    z-index: 9;
+    
+}
+.server{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 110;
+    left: 100;
+    line-height: 90px;
+    background-color: #d90040;
+    border-radius: 50%;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.skill-icon-python{ 
+    position: absolute; 
+    top: 220;
+    left: 230;
+    z-index: 2;
+    
+}
+.skill-icon-nodejs{ 
+    position: absolute;
+    top: 130;
+    left: 260;
+    z-index: 2;
+    
+}
+.skill-icon-php{ 
+    position: absolute;
+    top: 30;
+    left: 200;
+    z-index: 2;
+}
+.skill-icon-java{ 
+    position: absolute;
+    top: 20;
+    left: 80;
+    z-index: 1;
+    
+}
+.skill-icons-database{
+    transform: rotate(0);
+    width: 350;
+    height: 350px;
+    left: 10%;
+    position: absolute;
+    top: 40%;
+    margin-bottom: 50px;
+}
+.database{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 110;
+    left: 100;
+    line-height: 90px;
+    background-color: #d90040;
+    border-radius: 50%;
+    padding: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+.skill-icon-mysql{
+    position: absolute; 
+    top: 250;
+    left: 110;
+    z-index: 2;
+}
+.skill-icon-mongodb{
+    position: absolute; 
+    top: 200;
+    left: 240;
+    z-index: 2;
+}
+.skill-icon-sql{
+    position: absolute; 
+    top: 150;
+    left: 10;
+    z-index: 2;
+}
+.frontend-server{
+    display: flex;
+    width: 50%;
     background-color: #ffffff;
-    -webkit-box-shadow: 2px 3px 15px 1px rgba(25, 16, 26, 0.86); 
-    box-shadow: 2px 3px 15px 1px rgba(25,3,27,0.86);
-
+    height: 3px;
+    border-radius:10px ;
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    transform: rotate(20deg);
+}
+.server-database{
+    display: flex;
+    width: 40%;
+    background-color: #ffffff;
+    height: 3px;
+    border-radius:10px ;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: rotate(-20deg);
 }
 .portfolio{
     display: block;
@@ -511,16 +688,13 @@ nav{
     flex: 4;
     display: flex;
     flex-direction: column;
-    
 }
 .contact-form{
     margin-left: auto;
     margin-right: auto;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-   /*  position: relative; */
 }
 input{
     width: 400px;
@@ -572,12 +746,10 @@ button:hover{
     box-shadow: 1px 2px 6px 0px #252323;
 }
 .contact-info{
-    
     display: flex;
     flex-direction: row;
     text-align: left;
     margin: 10px;
-    
 }
 .contact-info img{
     width: 30px;
@@ -615,14 +787,21 @@ button:hover{
     color: #d90040;
 }
 .social-links{
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    margin: 8px;
 }
 .designer-name{
     font-family: 'Zen Loop', cursive;
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
+.uo-arrow{
+    width: 40px;
+    height: 40px;
+}
+
+
 @media (min-width:1250px) and (max-width:1450px){
     .profile-text{
         left:48%;

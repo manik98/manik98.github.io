@@ -211,7 +211,232 @@
     }
 }
 
-@media only screen and (min-width:900px) and (max-width:1249px) {
+
+@media only screen and (max-width:899px){
+    .skills{
+        flex-direction: column;
+        height: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill-title{
+        font-size: 30px;
+    }
+    .title-row{
+        height: 30px ;
+    }
+    .skill-progress{
+        display: flex;
+        justify-content:safe;
+    }
+
+}
+@media only screen and (max-width:899px) and (min-width:700px) {
+    /* .skill-progress{
+        margin-left: 0;
+        margin-right: auto;
+        width: 100%;
+    }
+    .progress-bar{
+        width: 300px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .skill-progress label{
+        width: 300px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+    .skill-progress{
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .progress-bar{
+        width: 300px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .progress{
+        background-color: #d90040;
+        border-radius: 20px;
+    }
+    .skill-progress label{
+        width: 300px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skill-icon img{
+        width: 50px;
+        height: 50px;
+    }
+    .skill-icons-frontend{
+        margin-left: 150px;
+    }
+    .frontend{
+        top: 70;
+        left: 40;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-html{ 
+        position: absolute;
+        top: 50;
+        left: -5;
+        z-index: 1;
+    }
+    .skill-icon-css{ 
+        position: absolute;
+        top: 10;
+        left: 50;
+        z-index: 1;
+    }
+    .skill-icon-react{ 
+        position: absolute;
+        top: 25;
+        left: 110;
+    }
+    .skill-icon-material-ui{ 
+        position: absolute;
+        top: 70;
+        left: 150;
+        z-index: 2;
+    }
+    .skill-icon-javascript{ 
+        position: absolute; 
+        top: 120;
+        left: -20;
+        z-index: 2;
+    }
+    .skill-icons-server{
+        transform: rotate(20deg);
+        display: block;
+        top: 15%;
+        right: 10%;
+        width: 300;
+        height: 300;
+        position: absolute;
+        z-index: 9;
+        
+    }
+    .server{
+        top: 70;
+        left:90;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-python{ 
+        
+        position: absolute; 
+        top: 120;
+        left: 210;
+        z-index: 2;
+        
+    }
+    .skill-icon-nodejs{ 
+        position: absolute;
+        top: 60;
+        left: 200;
+        z-index: 2;
+        
+    }
+    .skill-icon-php{ 
+        position: absolute;
+        top: 20;
+        left: 150;
+        z-index: 2;
+    }
+    .skill-icon-java{ 
+        position: absolute;
+        top: 20;
+        left: 80;
+        z-index: 1;
+    }
+    .skill-icons-database{
+        left: 20%;
+        top: 40%; 
+        
+    }
+    .database{
+        width: 80px;
+        height: 80px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-mysql{
+        position: absolute; 
+        top: 220;
+        left: 180;
+        z-index: 2;
+
+        
+    }
+    .skill-icon-mongodb{
+        position: absolute; 
+        top: 240;
+        left: 110;
+        z-index: 2;
+    }
+    .skill-icon-sql{
+        position: absolute; 
+        top: 180;
+        left: 50;
+        z-index: 2;
+    }
+    .frontend-server{
+        width: 50%;
+        top: 30%;
+        left: 25%;
+        transform: rotate(15deg);
+    }
+    .server-database{
+        width: 35%;
+        top: 65%;
+        left: 35%;
+        transform: rotate(-30deg);
+    }
+}
+@media only screen and (max-width:699px) and (min-width:500px) {
+   /* 
+    .progress-bar{
+        width: 300px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .skill-progress label{
+        width: 300px;
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    } */
+   
+}
+
+
+@media only screen and (min-width:900px)  and (max-width:1249px) {
     .para-point{
         margin: 30px 80px;
         padding: 0;
@@ -219,5 +444,164 @@
         width:calc(30%-24px);
         flex: 4;
         display: block;
+    }
+    .skill-progress{
+        margin-left: 50px;
+    }
+    .progress-bar{
+        width: 250px; 
+        margin-bottom: 15px;
+    }
+    .skill-progress{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .skill-progress label{
+        font-size: 16px;
+    }
+    .skill-icon img{
+        width: 50px;
+        height: 50px;
+    }
+    .frontend{
+        top: 70;
+        left: 40;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-html{ 
+        position: absolute;
+        top: 50;
+        left: -5;
+        z-index: 1;
+    }
+    .skill-icon-css{ 
+        position: absolute;
+        top: 10;
+        left: 50;
+        z-index: 1;
+    }
+    .skill-icon-react{ 
+        position: absolute;
+        top: 25;
+        left: 110;
+    }
+    .skill-icon-material-ui{ 
+        position: absolute;
+        top: 70;
+        left: 150;
+        z-index: 2;
+    }
+    .skill-icon-javascript{ 
+        position: absolute; 
+        top: 120;
+        left: -20;
+        z-index: 2;
+    }
+    .skill-icons-server{
+        transform: rotate(20deg);
+        display: block;
+        top: 15%;
+        right: 10%;
+        width: 300;
+        height: 300;
+        position: absolute;
+        z-index: 9;
+        
+    }
+    .server{
+        top: 70;
+        left:90;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-python{ 
+        
+        position: absolute; 
+        top: 120;
+        left: 210;
+        z-index: 2;
+        
+    }
+    .skill-icon-nodejs{ 
+        position: absolute;
+        top: 60;
+        left: 200;
+        z-index: 2;
+        
+    }
+    .skill-icon-php{ 
+        position: absolute;
+        top: 20;
+        left: 150;
+        z-index: 2;
+    }
+    .skill-icon-java{ 
+        position: absolute;
+        top: 20;
+        left: 80;
+        z-index: 1;
+    }
+    .skill-icons-database{
+        transform: rotate(0);
+        width: 350;
+        height: 350px;
+        left: 0;
+        top: 40%; 
+        position: absolute;
+        
+        margin-bottom: 50px;
+    }
+    .database{
+        /* width: 80px;
+        height: 80px; */
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 5px;
+    }
+    .skill-icon-mysql{
+        position: absolute; 
+        top: 220;
+        left: 180;
+        z-index: 2;
+
+        
+    }
+    .skill-icon-mongodb{
+        position: absolute; 
+        top: 240;
+        left: 110;
+        z-index: 2;
+    }
+    .skill-icon-sql{
+        position: absolute; 
+        top: 180;
+        left: 50;
+        z-index: 2;
+    }
+    .frontend-server{
+        top: 30%;
+        left: 15%;
+        transform: rotate(15deg);
+    }
+    .server-database{
+        top: 55%;
+        left: 26%;
+        transform: rotate(-30deg);
     }
 }

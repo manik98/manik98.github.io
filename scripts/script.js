@@ -104,3 +104,4 @@ function closeNavModal() {
   header.style.display = "block";
   navbar.style.display = "none";
 }
+
